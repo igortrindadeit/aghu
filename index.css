@@ -49,9 +49,11 @@ p{
     text-align: center;
     margin: auto;     
     display: block;
+    border: 1px;
+    padding: 5px;
 }
 
-/*#logoaghu{
+#logoaghu{
     float: top;
     text-align: center;
     margin: auto;
@@ -59,7 +61,7 @@ p{
     border: 1px;
     padding: 5px;    
     max-width: 200px;
-}*/
+}
 
 .divaghu{
     float: top;
@@ -169,4 +171,9 @@ a:active{
 
 .btn-fixed.visible{
     visibility: visible;
+}
+
+.textomouse:hover /*texto ao passar mouse por cima */{
+    transform: translateY(-5px);
+    cursor: pointer;
 }
