@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compartible" content="IE=edge">
+        <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+        <title>Bem Vindo PMD</title>
+        <link rel="stylesheet" type="text/css"  href="index.css">
+        <style>
+            .button{
+                border-radius: 4px;
+                border: none;
+                text-align: center;
+                padding: 20px;
+                width: 200px;   
+                cursor: pointer;
+                margin: 5px;
+            }
+
+            .button span{
+                position: relative;
+                transition: 0.5s;
+            }
+            
+            .button span::after {
+                content: "\00bb";
+                position: absolute;
+                opacity: 0;
+                top: 0;
+                right: -20px;
+                transition: 0.5s;
+            }
+
+            .button:hover span{
+                padding-right: 25px;                
+            }
+
+            .button:hover span::after{
+                opacity: 1;
+                right: 0;                
+            }
+            
+        </style>
+    </head>
+    <body>
+        <!--img src="C:\Users\igor.lopes\Documents\HTML\imgs\Logo-PMD.png" alt="P.M.D." width="300" height="300" style="top:auto"-->        
+        <div id="site">
+            <img src="imgs/Logo-PMD.png" id="logopmd" alt="P.M.D." width="150" height="150">
+        </div>
+
+        <div>
+            <p></p>
+            <p></p>            
+          <p>Equipe TI da Secretaria Municipal da Saúde.<p>  
+            <div class="divaghu">
+               <img src="imgs/AGHU.png" id="logoahgu" width="200" height="200">
+            </div>                                
+                    <table id="tbaghu">                            
+                            <tr>
+                                <th><a href="AGHU.html" rel="next" ><button class="button"><span>O que é?</span></th></a></button> 
+                                <th><a href="AGHU_Historia.html" rel="next"><button class="button"><span>História</span></th></a></button>
+                            </tr> 
+                    </table>                           
+        </div>
+    </body>
+</html>
