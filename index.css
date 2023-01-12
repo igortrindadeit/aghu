@@ -174,13 +174,13 @@ a:active{
     visibility: visible;
 }
 
-.textomouse:hover /*texto ao passar mouse por cima */{
+.textomouse:hover /*ícone ao passar mouse por cima */{
     transform: translateY(-5px);
     cursor: pointer;
 }
 
-#pdf{
+#pdf{    
     margin-left: auto;
-    margin-right: 700px;    
-    width: 8em;    
+    margin-right: 500px;    
+    width: 20em;    
 }
